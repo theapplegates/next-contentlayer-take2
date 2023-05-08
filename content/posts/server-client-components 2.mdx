@@ -125,50 +125,6 @@ module.exports = {
 
 Hopefully that looks good enough to you.
 
-import Image from 'next/image'
-import dog from '../public/dog.jpg'
-import mountains from '../public/dog.jpg'
-
-const Responsive = () => (
-  <div>
-    <ViewSource pathname="pages/responsive.tsx" />
-    <h1>Image Component With Layout Responsive</h1>
-    <Image
-      alt="Mountains"
-      src={mountains}
-      width={700}
-      height={475}
-      sizes="100vw"
-      style={{
-        width: '100%',
-        height: 'auto',
-      }}
-    />
-  </div>
-
-   <div>
-    <ViewSource pathname="pages/responsive.tsx" />
-    <h1>Image Component With Layout Responsive</h1>
-    <Image
-      alt="Dog"
-      src={dog}
-      width={700}
-      height={475}
-      sizes="100vw"
-      style={{
-        width: '100%',
-        height: 'auto',
-      }}
-    />
-  </div>
-
-)
-
-export default Responsive
-
-
-import mountains from '../public/dog.jpg'
-
 
 ### What about nested lists?
 
