@@ -1,8 +1,6 @@
 import { allPosts } from "@/.contentlayer/generated"
 import Link from "next/link"
 import Image from 'next/image';
-import profilePic from './Gulfstream-G800.jpg';
-
 
 export default function Home() {
   return (
