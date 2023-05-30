@@ -4,7 +4,7 @@ const { withContentlayer } = require("next-contentlayer");
 const nextConfig = {
   images: {
     minimumCacheTTL: 60,
-    domains: ['paulapplegate.com'],
+    domains: ['wip.paulapplegate.com'],
     formats: ['image/avif', 'image/webp'],
   },
   reactStrictMode: true,
