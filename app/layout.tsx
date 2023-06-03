@@ -1,11 +1,11 @@
 import Link from "next/link"
 import "./globals.css"
-import { Playfair } from "next/font/google";
+import { Nunito_Sans } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider"
 import { Analytics } from "@/components/analytics"
 import { ModeToggle } from "@/components/mode-toggle"
 
-const playfair = Playfair({ subsets: ["latin"] });
+const nunito_sans = Nunito_Sans({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Create Next App",
@@ -20,7 +20,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
       <body
-        className={`antialiased min-h-screen bg-white dark:bg-slate-950 text-slate-900 dark:text-slate-50 ${playfair.className}`}
+        className={`antialiased min-h-screen bg-white dark:bg-slate-950 text-slate-900 dark:text-slate-50 ${nunito_sans.className}`}
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <div className="max-w-2xl mx-auto py-10 px-4">
