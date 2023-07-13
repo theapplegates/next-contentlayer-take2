@@ -1,11 +1,11 @@
 import Link from "next/link"
 import "./globals.css"
-import { Inter } from "next/font/google"
+import { Atkinson-Hyperlegible-Regular } from "next/font/google"
 import { ThemeProvider } from "@/components/theme-provider"
 import { Analytics } from "@/components/analytics"
 import { ModeToggle } from "@/components/mode-toggle"
 
-const inter = Inter({ subsets: ["latin"] })
+const atkinson-hperlegible = Atkinson-Hyperlegible({ subsets: ["latin"] })
 
 export const metadata = {
   title: "Create Next App",
